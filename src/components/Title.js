@@ -1,9 +1,9 @@
 import React, {Component} from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 export default class Title extends Component {  /*OR REACT.COMPONENT??*/
     static propTypes = {
-        content: propTypes.string.isRequired,
+        content: PropTypes.string.isRequired,
     }
 
     render(){
@@ -12,5 +12,5 @@ export default class Title extends Component {  /*OR REACT.COMPONENT??*/
 }
 
 Title.propTypes = {
-    content: propTypes.string
+    content: PropTypes.string
 };
